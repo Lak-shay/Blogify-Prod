@@ -1,0 +1,42 @@
+.header{
+    position: relative;
+}
+
+.header::before{
+    content: "";
+    position: absolute;
+    background: url("https://images.pexels.com/photos/4674746/pexels-photo-4674746.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") no-repeat center center/cover;
+    top: 0px;
+    left: 0px;
+    height: 540px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+.headerHeadings{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    position: relative;
+    color: white;
+    height: 540px;
+    width: 100%;
+}
+
+.headerTitleSm{
+    position: absolute;
+    top: 30%;
+    left: 39%;
+    font-size: 3rem;
+}
+
+.headerTitleLg {
+    position: absolute;
+    top: 45%;
+    left: 35%;
+    font-size: 8rem;
+}
+
+.bigHeadingFirstLetter{
+    color: #007562;
+}

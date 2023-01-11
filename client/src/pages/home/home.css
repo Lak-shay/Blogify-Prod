@@ -1,0 +1,5 @@
+.home{
+    margin-top: 35px;
+    display: flex;
+    /* so that sidebar and posts can be displayed using flex. */
+}
